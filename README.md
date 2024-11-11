@@ -5,6 +5,9 @@ Ultraleap Handtracking Software:
 There will be a main scene called menu that is directly connected to the 3 separate scenes of the VR Enviroment, i would like to request to you to please test if you can see throught the XR Camera and if it is
 possible to capture de Ultraleap Input using your device
 
+### In this current version it is still not possible to control all of the interface through the XR Space so mouse input will be needed to interact with some of the Buttons Present in the Scene.
+
+It is also important to say that i ve done some modifications to the original Ultraleap example scenes to capture and display those hand poses.
 
 ## All the LEAP Provider of the 3 Scenes:
 
