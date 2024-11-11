@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Practicing/Menu.unity
+    guid: 9c5cc3410137e2541951e47367c5999f
+  - enabled: 1
+    path: Assets/Practicing/NegativeStage.unity
+    guid: 2bf491d0aade81147a222cf87258b4af
+  - enabled: 1
+    path: Assets/Practicing/NormalStage.unity
+    guid: 87693a3a36bbace4e95f08d1c7727e46
+  - enabled: 1
+    path: Assets/Practicing/PositiveStage.unity
+    guid: 2cd46f3768881e54c93b496409491c9c
+  - enabled: 1
+    path: Assets/Practicing/NegativeStageVR.unity
+    guid: 199d35bc132e7134786e19809e887544
+  - enabled: 1
+    path: Assets/Practicing/NormalStageVR.unity
+    guid: e90d704280c158b4486bf26ea98d3e40
+  - enabled: 1
+    path: Assets/Practicing/PositiveStageVR.unity
+    guid: 0f20e6c3051accd46b76b974f138faa9
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: f86790bdc21013f44a100cff1b6a90d1, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 74d5aca57bda50c40be6539bbbb458f3, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: bcd92ffa3ec9c40498aebef441427af1, type: 2}

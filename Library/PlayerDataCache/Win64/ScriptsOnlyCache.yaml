@@ -1,0 +1,2511 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp.dll:
+    - HandPoseSet
+    - SceneSwitcher
+    Ultraleap.Tracking.Aggregation:
+    - JointOcclusion
+    Ultraleap.Tracking.Core:
+    - Leap.CapsuleHand
+    - Leap.HandEnableDisable
+    - Leap.UltraleapSettings
+    Ultraleap.Tracking.Core.dll:
+    - HandPoseValidator
+    - Leap.CapsuleHand
+    - Leap.HandEnableDisable
+    - Leap.HandPoseDetector
+    - Leap.HandPoseEditor
+    - Leap.HandPoseScriptableObject
+    - Leap.LeapServiceProvider
+    - Leap.UltraleapSettings
+    Ultraleap.Tracking.Hands.dll:
+    - Leap.HandsModule.HandBinder
+    Ultraleap.Tracking.OpenXR.dll:
+    - Leap.Tracking.OpenXR.HandTrackingFeature
+    Unity.InputSystem.dll:
+    - UnityEngine.InputSystem.InputSettings
+    - UnityEngine.InputSystem.InputSystemObject
+    - UnityEngine.InputSystem.RemoteInputPlayerConnection
+    Unity.Rider.Editor.dll:
+    - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.TextMeshPro:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
+    Unity.XR.Management.Editor.dll:
+    - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
+    Unity.XR.OpenXR.Editor.dll:
+    - UnityEditor.XR.OpenXR.OpenXRPackageSettings
+    Unity.XR.OpenXR.Features.ConformanceAutomation.dll:
+    - UnityEngine.XR.OpenXR.Features.ConformanceAutomation.ConformanceAutomationFeature
+    Unity.XR.OpenXR.Features.MockRuntime.dll:
+    - UnityEngine.XR.OpenXR.Features.Mock.MockRuntime
+    Unity.XR.OpenXR.Features.RuntimeDebugger.dll:
+    - UnityEngine.XR.OpenXR.Features.RuntimeDebugger.RuntimeDebuggerOpenXRFeature
+    Unity.XR.OpenXR.dll:
+    - UnityEngine.XR.OpenXR.Features.Interactions.DPadInteraction
+    - UnityEngine.XR.OpenXR.Features.Interactions.EyeGazeInteraction
+    - UnityEngine.XR.OpenXR.Features.Interactions.HPReverbG2ControllerProfile
+    - UnityEngine.XR.OpenXR.Features.Interactions.HTCViveControllerProfile
+    - UnityEngine.XR.OpenXR.Features.Interactions.HandCommonPosesInteraction
+    - UnityEngine.XR.OpenXR.Features.Interactions.HandInteractionProfile
+    - UnityEngine.XR.OpenXR.Features.Interactions.KHRSimpleControllerProfile
+    - UnityEngine.XR.OpenXR.Features.Interactions.MetaQuestTouchProControllerProfile
+    - UnityEngine.XR.OpenXR.Features.Interactions.MicrosoftHandInteraction
+    - UnityEngine.XR.OpenXR.Features.Interactions.MicrosoftMotionControllerProfile
+    - UnityEngine.XR.OpenXR.Features.Interactions.OculusTouchControllerProfile
+    - UnityEngine.XR.OpenXR.Features.Interactions.PalmPoseInteraction
+    - UnityEngine.XR.OpenXR.Features.Interactions.ValveIndexControllerProfile
+    - UnityEngine.XR.OpenXR.OpenXRSettings
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimatorControllerTool
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
+  serializedClasses:
+    Ultraleap.Tracking.Core:
+    - Leap.Arm
+    - Leap.Bone
+    - Leap.Finger
+    - Leap.Hand
+    - Leap.HandPoseScriptableObject/FingerJointThresholds
+    Ultraleap.Tracking.Hands:
+    - Leap.HandsModule.BoundBone
+    - Leap.HandsModule.BoundFinger
+    - Leap.HandsModule.BoundHand
+    - Leap.HandsModule.SerializedTransform
+    - Leap.HandsModule.TransformStore
+    Unity.TextMeshPro:
+    - TMPro.FaceInfo_Legacy
+    - TMPro.FontAssetCreationSettings
+    - TMPro.KerningTable
+    - TMPro.TMP_Character
+    - TMPro.TMP_FontFeatureTable
+    - TMPro.TMP_FontWeightPair
+    - TMPro.TMP_GlyphAdjustmentRecord
+    - TMPro.TMP_GlyphPairAdjustmentRecord
+    - TMPro.TMP_GlyphValueRecord
+    - TMPro.TMP_Sprite
+    - TMPro.TMP_SpriteCharacter
+    - TMPro.TMP_SpriteGlyph
+    - TMPro.TMP_Style
+    - TMPro.VertexGradient
+    UnityEngine.CoreModule:
+    - UnityEngine.Events.ArgumentCache
+    - UnityEngine.Events.PersistentCallGroup
+    - UnityEngine.Events.PersistentListenerMode
+    - UnityEngine.Events.UnityEvent
+    UnityEngine.TextCoreFontEngineModule:
+    - UnityEngine.TextCore.FaceInfo
+    - UnityEngine.TextCore.Glyph
+    - UnityEngine.TextCore.GlyphMetrics
+    - UnityEngine.TextCore.GlyphRect
+    UnityEngine.UI:
+    - UnityEngine.UI.AnimationTriggers
+    - UnityEngine.UI.Button/ButtonClickedEvent
+    - UnityEngine.UI.ColorBlock
+    - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+    - UnityEngine.UI.Navigation
+    - UnityEngine.UI.SpriteState
+  methodsToPreserve:
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  - assembly: Unity.TextMeshPro
+    fullTypeName: TMPro.TMP_Text
+    methodName: set_text
+  sceneClasses:
+    Assets/Practicing/Menu.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 84
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1582}
+    - Class: 114
+      Script: {instanceID: 1640}
+    - Class: 114
+      Script: {instanceID: 1804}
+    - Class: 114
+      Script: {instanceID: 2404}
+    - Class: 114
+      Script: {instanceID: 2968}
+    - Class: 114
+      Script: {instanceID: 3230}
+    - Class: 114
+      Script: {instanceID: 3602}
+    - Class: 114
+      Script: {instanceID: 4908}
+    - Class: 114
+      Script: {instanceID: 5236}
+    - Class: 114
+      Script: {instanceID: 6150}
+    - Class: 114
+      Script: {instanceID: 6172}
+    - Class: 114
+      Script: {instanceID: 6870}
+    - Class: 114
+      Script: {instanceID: 7082}
+    - Class: 114
+      Script: {instanceID: 7498}
+    - Class: 114
+      Script: {instanceID: 7846}
+    - Class: 114
+      Script: {instanceID: 27118}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Practicing/NegativeStage.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1582}
+    - Class: 114
+      Script: {instanceID: 1640}
+    - Class: 114
+      Script: {instanceID: 1804}
+    - Class: 114
+      Script: {instanceID: 2968}
+    - Class: 114
+      Script: {instanceID: 3212}
+    - Class: 114
+      Script: {instanceID: 3230}
+    - Class: 114
+      Script: {instanceID: 3602}
+    - Class: 114
+      Script: {instanceID: 3906}
+    - Class: 114
+      Script: {instanceID: 4084}
+    - Class: 114
+      Script: {instanceID: 5126}
+    - Class: 114
+      Script: {instanceID: 6172}
+    - Class: 114
+      Script: {instanceID: 6616}
+    - Class: 114
+      Script: {instanceID: 6666}
+    - Class: 114
+      Script: {instanceID: 7082}
+    - Class: 114
+      Script: {instanceID: 7498}
+    - Class: 114
+      Script: {instanceID: 7846}
+    - Class: 114
+      Script: {instanceID: 9612}
+    - Class: 114
+      Script: {instanceID: 27118}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Practicing/NormalStage.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1582}
+    - Class: 114
+      Script: {instanceID: 1640}
+    - Class: 114
+      Script: {instanceID: 1804}
+    - Class: 114
+      Script: {instanceID: 2968}
+    - Class: 114
+      Script: {instanceID: 3212}
+    - Class: 114
+      Script: {instanceID: 3230}
+    - Class: 114
+      Script: {instanceID: 3602}
+    - Class: 114
+      Script: {instanceID: 3906}
+    - Class: 114
+      Script: {instanceID: 4084}
+    - Class: 114
+      Script: {instanceID: 5126}
+    - Class: 114
+      Script: {instanceID: 6172}
+    - Class: 114
+      Script: {instanceID: 6616}
+    - Class: 114
+      Script: {instanceID: 6666}
+    - Class: 114
+      Script: {instanceID: 7082}
+    - Class: 114
+      Script: {instanceID: 7498}
+    - Class: 114
+      Script: {instanceID: 7846}
+    - Class: 114
+      Script: {instanceID: 9612}
+    - Class: 114
+      Script: {instanceID: 27118}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Practicing/PositiveStage.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1582}
+    - Class: 114
+      Script: {instanceID: 1640}
+    - Class: 114
+      Script: {instanceID: 1804}
+    - Class: 114
+      Script: {instanceID: 2968}
+    - Class: 114
+      Script: {instanceID: 3212}
+    - Class: 114
+      Script: {instanceID: 3230}
+    - Class: 114
+      Script: {instanceID: 3602}
+    - Class: 114
+      Script: {instanceID: 3906}
+    - Class: 114
+      Script: {instanceID: 4084}
+    - Class: 114
+      Script: {instanceID: 5126}
+    - Class: 114
+      Script: {instanceID: 6172}
+    - Class: 114
+      Script: {instanceID: 6616}
+    - Class: 114
+      Script: {instanceID: 6666}
+    - Class: 114
+      Script: {instanceID: 7082}
+    - Class: 114
+      Script: {instanceID: 7498}
+    - Class: 114
+      Script: {instanceID: 7846}
+    - Class: 114
+      Script: {instanceID: 9612}
+    - Class: 114
+      Script: {instanceID: 27118}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: 67f2e533bbfe68206e21fd8cf233561c
+    assemblyName: UnityEngine.SpatialTracking
+    namespaceName: UnityEngine.SpatialTracking
+    className: TrackedPoseDriver
+  - hash:
+      serializedVersion: 2
+      Hash: 540882762544409cc4530e60db00e951
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: d41ab9b5ea92474f9c0a6937a0607ce1
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 55060a7bf226ac385ce19ebd450f199f
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UIElements
+    className: PanelRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: f61edfb3f9104477676120b10b069b2d
+    assemblyName: Assembly-CSharp
+    namespaceName: Leap.Examples
+    className: ExplodingItemController
+  - hash:
+      serializedVersion: 2
+      Hash: dd9dda1dfd39e605c49e72003342ef5d
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 0f19765290d81f9e93eff7828a091d40
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem
+    className: PlayerInput
+  - hash:
+      serializedVersion: 2
+      Hash: 40bdadcd1cc14ab9d74347f31c1d4dd2
+    assemblyName: UnityEngine.XR.LegacyInputHelpers
+    namespaceName: UnityEngine.XR.LegacyInputHelpers
+    className: ArmModel
+  - hash:
+      serializedVersion: 2
+      Hash: 5c1346d316db3b52f91ecd341b686a77
+    assemblyName: Ultraleap.Tracking.PhysicalHands
+    namespaceName: Leap.PhysicalHands
+    className: SoftContactBone
+  - hash:
+      serializedVersion: 2
+      Hash: 6557c538becc56f86dc1bb9129a54e0a
+    assemblyName: Ultraleap.Tracking.PhysicalHandsExamples
+    namespaceName: Leap.Examples
+    className: Cannon
+  - hash:
+      serializedVersion: 2
+      Hash: c90fd8d4da5d7d124fdf30f917f8fa80
+    assemblyName: Assembly-CSharp
+    namespaceName: Leap.Examples
+    className: EditorURL
+  - hash:
+      serializedVersion: 2
+      Hash: 6fd0df369bb34810acddd6e92b88d8ec
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap
+    className: LeapImageRetriever
+  - hash:
+      serializedVersion: 2
+      Hash: f45600bcc886206dd55a3208474aad61
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnScrollbarValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: a3901985eb076c1c9b7562fca82ca3e0
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 8dff8e9853297d341afa0c11f9091b59
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: 0cd207d1bc80601a25069d8f6a59ac36
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap
+    className: HandEnableDisable
+  - hash:
+      serializedVersion: 2
+      Hash: 00bbd9db8634496d079d17711b2ff7c4
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: bb862643846357a888502713997cbdf1
+    assemblyName: Assembly-CSharp
+    namespaceName: Leap.HandsModule.Examples
+    className: CycleHandPairs
+  - hash:
+      serializedVersion: 2
+      Hash: 157d3cf40178d244cd11ae1c9791ead7
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.HID.Editor
+    className: HIDDescriptorWindow
+  - hash:
+      serializedVersion: 2
+      Hash: ed8e62f07ec878233f5493a335003493
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.UI
+    className: VirtualMouseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 8703b6ae2b0eefd9dafbc44d8d333fb1
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: f778e23b6ff26b8de4721be0eb1fa240
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionStayMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 2d1e531a3867d7a58da0d63cfcee1923
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap
+    className: LeapXRServiceProvider
+  - hash:
+      serializedVersion: 2
+      Hash: d3b5bd86ad4c806812d1e91d5af6b95b
+    assemblyName: Ultraleap.Tracking.HandRays
+    namespaceName: Leap.Preview.HandRays
+    className: HandRayDotRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: f854af586011dd194574f89546642e29
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 8af48245d812aec5a23fe0d426250959
+    assemblyName: Ultraleap.Tracking.PhysicalHands
+    namespaceName: Leap.PhysicalHands
+    className: GrabHelper
+  - hash:
+      serializedVersion: 2
+      Hash: 92edb590f42aa26ada6cfc43586b044a
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap
+    className: Anchor
+  - hash:
+      serializedVersion: 2
+      Hash: 39e3d13d26d22683fdf4bf0ac57a8184
+    assemblyName: Ultraleap.Tracking.PhysicalHands
+    namespaceName: Leap.PhysicalHands
+    className: PhysicalHandsSlider
+  - hash:
+      serializedVersion: 2
+      Hash: 7d38a4303a61673ace9d0e504ad3d067
+    assemblyName: Unity.XR.OpenXR
+    namespaceName: UnityEngine.XR.OpenXR
+    className: OpenXRSettings
+  - hash:
+      serializedVersion: 2
+      Hash: fbda57f106245ada546c88465855448a
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap
+    className: Comment
+  - hash:
+      serializedVersion: 2
+      Hash: b12640dfdb5966813e9dd838893e6c4a
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTriggerEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 0c6de72eaf8c1070da824268c4bfad9d
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: ad49e20f31ed572e586aa8bbaafb591b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDropMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 4ca9f7e142b68b55e2e93da82fb8190d
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap
+    className: PinchDetector
+  - hash:
+      serializedVersion: 2
+      Hash: 1bc6ff8d02d2d68019aa6a028f8d409d
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerUpMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: b40f8ffcaa6b71545b8d6ff04b849814
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: AdvancedDropdownWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 7e93247d600e115dac0cdd880de94e99
+    assemblyName: UnityEngine.TestRunner
+    namespaceName: UnityEngine.TestTools.TestRunner
+    className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: 83cfda82082c233d96cc677c19f57e07
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnJointBreakMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 7c3511ff834bf2ac1d732fec40be5215
+    assemblyName: Ultraleap.Tracking.Aggregation
+    namespaceName: Leap
+    className: AggregationProviderConfidenceInterpolation
+  - hash:
+      serializedVersion: 2
+      Hash: 2a1912c70093801c3d4026984c50c59e
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap
+    className: EnableDepthBuffer
+  - hash:
+      serializedVersion: 2
+      Hash: 1ab136900c0edaeeb49424c852595030
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: b122b1d3ee011c4e40bee01fdcecba0b
+    assemblyName: Ultraleap.Tracking.PhysicalHands
+    namespaceName: Leap.PhysicalHands
+    className: NoContactBone
+  - hash:
+      serializedVersion: 2
+      Hash: 87dfc7e6c3f25dddd841a576ab1b9fd0
+    assemblyName: Assembly-CSharp
+    namespaceName: Leap.Examples
+    className: TurntableVisuals
+  - hash:
+      serializedVersion: 2
+      Hash: fa3c82a8330387a64f8eace1f546c577
+    assemblyName: Ultraleap.Tracking.PhysicalHandsExamples
+    namespaceName: Leap.PhysicalHands.Examples
+    className: PhysicalHandsChangeColoursOnHandEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 1321993db8249e1e05e1e0492b2bbdc3
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnBecameVisibleMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 30d773f3b69327364bb55f885974f619
+    assemblyName: Ultraleap.Tracking.ImageDistort
+    namespaceName: 
+    className: LeapDistortImage
+  - hash:
+      serializedVersion: 2
+      Hash: d6513b331a95193e4f20066ca0f18c5d
+    assemblyName: Ultraleap.Tracking.PhysicalHands
+    namespaceName: Leap.PhysicalHands
+    className: IgnorePhysicalHands
+  - hash:
+      serializedVersion: 2
+      Hash: e19c2976301b3b3980277a8e908c5d3e
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap
+    className: AnchorGroup
+  - hash:
+      serializedVersion: 2
+      Hash: d75c4810e62aa1b7ef87a0a2d22c375c
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap
+    className: TrackingMarker
+  - hash:
+      serializedVersion: 2
+      Hash: 656acbe4a0f020c7b4958d8c36522252
+    assemblyName: Assembly-CSharp
+    namespaceName: Leap.Examples
+    className: RectToroid
+  - hash:
+      serializedVersion: 2
+      Hash: adeedbad372e0c75f8397d7337a49390
+    assemblyName: Ultraleap.Tracking.PhysicalHands
+    namespaceName: Leap.PhysicalHands
+    className: PhysicalHandsManager
+  - hash:
+      serializedVersion: 2
+      Hash: f024791ca254544c5fc66eee9b9c7cac
+    assemblyName: Ultraleap.Tracking.Controllers
+    namespaceName: Leap.Controllers
+    className: HandControllerSwapper
+  - hash:
+      serializedVersion: 2
+      Hash: e987953190eb4c12cf19df790566dc2c
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 52db48e3be0a2b4f8b06f918fd1ebfbc
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 51e42b97fe2416d7645e5dbd3ca1540a
+    assemblyName: Ultraleap.Tracking.PhysicalHandsExamples
+    namespaceName: Leap.Examples
+    className: ObjectResetter
+  - hash:
+      serializedVersion: 2
+      Hash: fac9bdce7402c68e991422badf17f880
+    assemblyName: Ultraleap.Tracking.PhysicalHandsExamples
+    namespaceName: Leap.PhysicalHands.Examples
+    className: PhysicalHandsRocket
+  - hash:
+      serializedVersion: 2
+      Hash: f295412bc00b58b9095a71e9764cc886
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 04b6685b6f724c0d6024e6b6f96c8202
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: ada873da50974d1e7ce247ffb296b0f3
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: d709a191dd596c563e77e4061d2d8bca
+    assemblyName: Ultraleap.Tracking.HandRecorder
+    namespaceName: Leap.Recording
+    className: HandRecorder
+  - hash:
+      serializedVersion: 2
+      Hash: 7e12302f66e3c8ed5bcfea4ce65fccea
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: e01e56e8ed7548032ac8f4791f0231a3
+    assemblyName: Assembly-CSharp
+    namespaceName: Leap.Examples
+    className: PoseShowcaseManager
+  - hash:
+      serializedVersion: 2
+      Hash: 3d5d6c39a259082b91526b81895375b7
+    assemblyName: Ultraleap.Tracking.HandRays
+    namespaceName: Leap.Preview.HandRays
+    className: WristShoulderHandRay
+  - hash:
+      serializedVersion: 2
+      Hash: 1ab240dbaa7a2ba3472fcf7228853e02
+    assemblyName: Assembly-CSharp
+    namespaceName: Leap.Examples
+    className: SimpleAnchorFeedback
+  - hash:
+      serializedVersion: 2
+      Hash: 799a73e681e05e0b9a9ef44ecf206d65
+    assemblyName: Ultraleap.Tracking.PhysicalHandsExamples
+    namespaceName: Leap.PhysicalHandsExamples
+    className: TwoDimensionalPhysicalHandsSlider
+  - hash:
+      serializedVersion: 2
+      Hash: fce9b835d1e8b08e7ecea8da19f21986
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: CoroutineRunner
+  - hash:
+      serializedVersion: 2
+      Hash: 9edf5267c2977ef748286a0897707fd9
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: HandPoseSet
+  - hash:
+      serializedVersion: 2
+      Hash: 6ddf94363c6ce4b02d9fdd51290cb0f9
+    assemblyName: UnityEngine.TestRunner
+    namespaceName: UnityEngine.TestRunner.Utils
+    className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: 5a4aa2850fe11587f47e34c270c7fd22
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 3b5263a98bcc71d9a9d1d78a31b34ced
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: cd6a1b1edf067d8de34adb13e06e9cc8
+    assemblyName: Unity.XR.OpenXR
+    namespaceName: UnityEngine.XR.OpenXR.Features.Interactions
+    className: MicrosoftHandInteraction
+  - hash:
+      serializedVersion: 2
+      Hash: 8c03d6ee69f5dc5ed9b56c1be75f5b62
+    assemblyName: Unity.XR.CoreUtils
+    namespaceName: Unity.XR.CoreUtils
+    className: OnDestroyNotifier
+  - hash:
+      serializedVersion: 2
+      Hash: 28fd3d045acc780719a17f02073eb448
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 8e6dc3d79712ca4934f6d50c80f010b1
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 6d394de691f6d0187f61c08889353d0e
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnButtonClickMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: e23d2210701e34e6850023cabe554c1f
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnInputFieldEndEditMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: bf40c7a9dc15bc219687c9838aa9b41f
+    assemblyName: UnityEngine.TestRunner
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 00085a9e16e478ed15233069a8829722
+    assemblyName: Ultraleap.Tracking.OpenXR
+    namespaceName: Leap.Tracking.OpenXR
+    className: OpenXRLeapProvider
+  - hash:
+      serializedVersion: 2
+      Hash: b98001682cba83786775c9e415b89a61
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDropdownValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 5189120f2f73624b59c80f6959fb206a
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap.Attachments
+    className: AttachmentPointBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 35eb562210f081fa6b40ff53aac268a1
+    assemblyName: Assembly-CSharp
+    namespaceName: Leap.Examples
+    className: PullCordHandle
+  - hash:
+      serializedVersion: 2
+      Hash: 227925b86c8ea1d8d04861bfbe0e26d9
+    assemblyName: Ultraleap.Tracking.PhysicalHands
+    namespaceName: Leap.PhysicalHands
+    className: HardContactParent
+  - hash:
+      serializedVersion: 2
+      Hash: b838cbada0b03f1cfbaebc8e124f4f39
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.OnScreen
+    className: OnScreenButton
+  - hash:
+      serializedVersion: 2
+      Hash: 99d08873dd7f5c544adcd0a08d2eae82
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap
+    className: TrackingMarkerObject
+  - hash:
+      serializedVersion: 2
+      Hash: 1014038eaef7fa38142f9d8e71a6cd5a
+    assemblyName: Unity.XR.OpenXR
+    namespaceName: UnityEngine.XR.OpenXR.Features.Interactions
+    className: PalmPoseInteraction
+  - hash:
+      serializedVersion: 2
+      Hash: a1ac4c50e55874de16eee3db71aa9784
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: d8b3f4ac634127b7b16f3c31b46e0031
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap
+    className: XRLeapProviderManager
+  - hash:
+      serializedVersion: 2
+      Hash: 026cdb1d97f711249eac3278e6e8f159
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap.RuntimeGizmos
+    className: RuntimeGizmoToggle
+  - hash:
+      serializedVersion: 2
+      Hash: 915204dac8acad99f076d6e72ada0a0f
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: ada504bc54c963b2e35d055b617e4518
+    assemblyName: Ultraleap.Tracking.PhysicalHands
+    namespaceName: Leap.PhysicalHands
+    className: PhysicalHandsButton
+  - hash:
+      serializedVersion: 2
+      Hash: 0732a0cc435710d168962b53ff81825e
+    assemblyName: Assembly-CSharp
+    namespaceName: Leap.Examples
+    className: InertiaPostProcessProvider
+  - hash:
+      serializedVersion: 2
+      Hash: d90629714fa6b0145fcaffc87f5c6559
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnInputFieldValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: bb8d968ef4474e71aaad4a4dce279f90
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseDownMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 03478dbb503e7731d0a63686e36fa469
+    assemblyName: Ultraleap.Tracking.PhysicalHands
+    namespaceName: Leap.PhysicalHands
+    className: NoContactHand
+  - hash:
+      serializedVersion: 2
+      Hash: a2d858ddb3cf5dc7380159f144f6602f
+    assemblyName: Ultraleap.Tracking.PhysicalHands
+    namespaceName: Leap.PhysicalHands
+    className: HandFadeInAtDistanceFromRealData
+  - hash:
+      serializedVersion: 2
+      Hash: b6307dfc54cca9ba44f47185c578b0ce
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: d7c8092511063e0dae8106bfc8ed63dd
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnScrollMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 5eb4b8ab506665fa788025e7ec990110
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap
+    className: DebugHand
+  - hash:
+      serializedVersion: 2
+      Hash: 715f7928b39881049ce8c46350cb8681
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTransformParentChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 06c984b9f4ada1d0e2b43ceed5f2b365
+    assemblyName: Ultraleap.Tracking.Locomotion
+    namespaceName: Leap.Preview.Locomotion
+    className: JumpGem
+  - hash:
+      serializedVersion: 2
+      Hash: 86344100c716167fb86137c127ca9eee
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputActionImporterEditor
+  - hash:
+      serializedVersion: 2
+      Hash: d0a2e4a0399086564e9c834900f2aee1
+    assemblyName: Unity.XR.OpenXR
+    namespaceName: UnityEngine.XR.OpenXR
+    className: OpenXRRestarter
+  - hash:
+      serializedVersion: 2
+      Hash: c6369b4cc3be620d6c9300e920bc3d52
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: VariablesAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 180973776fec882fc71729d5cca2169a
+    assemblyName: Ultraleap.Tracking.Hands
+    namespaceName: Leap.HandsModule
+    className: HandBinder
+  - hash:
+      serializedVersion: 2
+      Hash: 7bdff9e91edfd9600f92a185def7e34a
+    assemblyName: Unity.VisualScripting.Flow
+    namespaceName: Unity.VisualScripting
+    className: ScriptMachine
+  - hash:
+      serializedVersion: 2
+      Hash: 43ebd945b04bced376c791411cf5a289
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnSelectMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 344e22ddbb537a55b0f2e12b0f48f5ac
+    assemblyName: Assembly-CSharp
+    namespaceName: Leap.Examples
+    className: SimpleInteractionGlow
+  - hash:
+      serializedVersion: 2
+      Hash: 5b8b7230ad968399f6726aa1269dcdcb
+    assemblyName: UnityEngine.TestRunner
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayerQuitHandler
+  - hash:
+      serializedVersion: 2
+      Hash: cf32d98954e63b8e30e9334b152e9b8e
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 5e8ad8b430e5b82ba2af25508cbeb8a6
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap
+    className: HandPoseEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 6b150980c744c202e19afef1feedb9da
+    assemblyName: Assembly-CSharp
+    namespaceName: Leap.Examples
+    className: ThickRibbonRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: 78bdc2cc78370a063d6b8aa3b431dbae
+    assemblyName: Ultraleap.Tracking.PhysicalHands
+    namespaceName: Leap.PhysicalHands
+    className: HardContactHand
+  - hash:
+      serializedVersion: 2
+      Hash: e6f8333cc8a800e2866870a5ef7efc35
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnControllerColliderHitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: eaab4c4cd63f652dfe2568fb4160bfc4
+    assemblyName: Ultraleap.Tracking.PhysicalHands
+    namespaceName: Leap.PhysicalHands
+    className: HardContactBone
+  - hash:
+      serializedVersion: 2
+      Hash: 053d1193387b4bde59f07b17f1835217
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap.Attachments
+    className: AttachmentHands
+  - hash:
+      serializedVersion: 2
+      Hash: 731480b83236435ed9fb94ca37cf5283
+    assemblyName: Unity.XR.Management
+    namespaceName: UnityEngine.XR.Management
+    className: XRGeneralSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 960935b102b3064f4b924de16426e340
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: b2d2a01a2a85d9ed12e80cb33a9a6044
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 6217b1287eca7eed313cf0b864249a30
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionExit2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: bfac4d7dc5801274d43ac08d7477e800
+    assemblyName: Unity.XR.OpenXR
+    namespaceName: UnityEngine.XR.OpenXR.Features.Interactions
+    className: MetaQuestTouchProControllerProfile
+  - hash:
+      serializedVersion: 2
+      Hash: 0ed7dfcb5356681e6627b207891cb849
+    assemblyName: Unity.XR.Management
+    namespaceName: UnityEngine.XR.Management
+    className: XRManagerSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 8388cadbb8a3e60c3be9c139769a577f
+    assemblyName: Ultraleap.Tracking.Locomotion
+    namespaceName: Leap.Preview.Locomotion
+    className: JumpGemTeleport
+  - hash:
+      serializedVersion: 2
+      Hash: 952ec4360ec91ad00a95e6c183ab27d9
+    assemblyName: Assembly-CSharp
+    namespaceName: Leap.Examples
+    className: ScaleOnEnable
+  - hash:
+      serializedVersion: 2
+      Hash: c67fed51bde67baee143e72e4ea37178
+    assemblyName: Unity.XR.OpenXR.Features.RuntimeDebugger
+    namespaceName: UnityEngine.XR.OpenXR.Features.RuntimeDebugger
+    className: RuntimeDebuggerOpenXRFeature
+  - hash:
+      serializedVersion: 2
+      Hash: 0a3f328f3ea906bbbcf794f4c27ee59d
+    assemblyName: Unity.VisualScripting.Flow
+    namespaceName: Unity.VisualScripting
+    className: ScriptGraphAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 1cffba73a73cc0bb96d21df9dfea235a
+    assemblyName: Ultraleap.Tracking.PhysicalHandsExamples
+    namespaceName: Leap.Examples
+    className: MagneticObject
+  - hash:
+      serializedVersion: 2
+      Hash: 3371fe37cc9941496d12b5e975906c65
+    assemblyName: Ultraleap.Tracking.HandRays
+    namespaceName: Leap.Preview.HandRays
+    className: StraightRayInteractor
+  - hash:
+      serializedVersion: 2
+      Hash: c295f30afa84e01403208fa0cae6cd3a
+    assemblyName: Unity.XR.CoreUtils
+    namespaceName: Unity.XR.CoreUtils.Datums
+    className: StringDatum
+  - hash:
+      serializedVersion: 2
+      Hash: 42284ecb06b05bfc619be3758fa5dd7a
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem
+    className: InputActionAsset
+  - hash:
+      serializedVersion: 2
+      Hash: fb79e95da8891fc7ac6c36ca6967af23
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 552dca338f20933ce362ebbe559a6aa6
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: cbaf979d047774a0c18ce60cb0321b1b
+    assemblyName: Unity.XR.CoreUtils
+    namespaceName: Unity.XR.CoreUtils
+    className: XROrigin
+  - hash:
+      serializedVersion: 2
+      Hash: 95426d463074947dcbffc797c44e779c
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.UI.Editor
+    className: StandaloneInputModuleModuleEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 5835aa044b7ea3413cc6d9d819e95dd9
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputActionDebuggerWindow
+  - hash:
+      serializedVersion: 2
+      Hash: b747f5d40674055dd70e18552f1b0447
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: 164a37e0bc379311785dd54beac44331
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputDebuggerWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 943c087b3aa374c5367d730f2a99e9b9
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap.Attachments
+    className: AttachmentHand
+  - hash:
+      serializedVersion: 2
+      Hash: 32bfadf4ab14c1e4298d945ac7dbee8f
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputStateWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 0bc7ef1b7516f21320ec49bfd31eef2e
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.UI
+    className: TrackedDeviceRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 4718916586b3818eb69bf65df61f0f3a
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionStay2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 185e7bacfbbc5defefa609c70f7ff4ce
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: 682dfc653b22feea53b38adb3bc66414
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: c78ed13f6b5a632d70d4f73f56ad81f2
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: VariablesSaver
+  - hash:
+      serializedVersion: 2
+      Hash: 7053e305cdc1eb560f4c3be49d3b5136
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 042785b832afb73fd0585521aa7baf43
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 1a680d9a08de79b0d2c779e78c9843b4
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: 87f81697b007128d16216364fd3d2388
+    assemblyName: Ultraleap.Tracking.OpenXR
+    namespaceName: Leap.Tracking.OpenXR
+    className: HandTrackingFeature
+  - hash:
+      serializedVersion: 2
+      Hash: c933b590b3badb5918fa01e73cd5cc0c
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: ca7965796a6fc0e5baad4cb19f5b5ded
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnJointBreak2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 9ebc0a3016506a0cbb7e0306dfcb9497
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: DictionaryAsset
+  - hash:
+      serializedVersion: 2
+      Hash: e7e95903ca66d58e1a7cbd71f824e16d
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: 0c091927067212d744ceaa77b2e694c1
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: 
+    className: HandPoseValidator
+  - hash:
+      serializedVersion: 2
+      Hash: 215d2dc6ec6ea06728398ea39a103cb3
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.OnScreen
+    className: OnScreenStick
+  - hash:
+      serializedVersion: 2
+      Hash: 9078325c2a6f6a2d9612ade897511860
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 96e7bcfd2d072992dab64ac44058b930
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCancelMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 7cc0a2634e97244e8123f53b8dd1f0ae
+    assemblyName: Assembly-CSharp
+    namespaceName: Leap.Examples
+    className: SimpleScaleUtil
+  - hash:
+      serializedVersion: 2
+      Hash: df4a907c35265c62138cb07ad995964a
+    assemblyName: Ultraleap.Tracking.Hands
+    namespaceName: Leap.HandsModule
+    className: DistortTrackingDataToVisuals
+  - hash:
+      serializedVersion: 2
+      Hash: ea1b87a3bfed09792e7720338241c7a0
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputDeviceDebuggerWindow
+  - hash:
+      serializedVersion: 2
+      Hash: ff71db1a48de41d3a8a5ffdfae1ea607
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem
+    className: InputSystemObject
+  - hash:
+      serializedVersion: 2
+      Hash: e34a2bf62ae5e17a9c6062787cfffbdb
+    assemblyName: Unity.XR.OpenXR
+    namespaceName: UnityEngine.XR.OpenXR.Features.Interactions
+    className: HPReverbG2ControllerProfile
+  - hash:
+      serializedVersion: 2
+      Hash: 7e9cad7f71f9cc52f699bbd2d2a75734
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerClickMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 8d59aafb704835b540825c848e0ac20f
+    assemblyName: Unity.XR.OpenXR
+    namespaceName: UnityEngine.XR.OpenXR.Features.Interactions
+    className: MicrosoftMotionControllerProfile
+  - hash:
+      serializedVersion: 2
+      Hash: 66a782f09c3a7acebec8557f4d8ec23f
+    assemblyName: Ultraleap.Tracking.UIInput
+    namespaceName: Leap.InputModule
+    className: UIInputCursor
+  - hash:
+      serializedVersion: 2
+      Hash: ca0b1e5e177d32220d685f0060cc8de5
+    assemblyName: Unity.XR.OpenXR
+    namespaceName: UnityEngine.XR.OpenXR.Features.Interactions
+    className: KHRSimpleControllerProfile
+  - hash:
+      serializedVersion: 2
+      Hash: 4ffe662c1d48ade5b72ef17522896ff5
+    assemblyName: Assembly-CSharp
+    namespaceName: Leap.Examples
+    className: SimpleMatchAnchorScaleAndState
+  - hash:
+      serializedVersion: 2
+      Hash: 58ee547001698372cda9e56bc22249c0
+    assemblyName: Ultraleap.Tracking.PhysicalHandsExamples
+    namespaceName: Leap.PhysicalHands.Examples
+    className: HandGrabHighlighter
+  - hash:
+      serializedVersion: 2
+      Hash: f9d4788cb42dbeb53e13e8b76416c629
+    assemblyName: Ultraleap.Tracking.Locomotion
+    namespaceName: Leap.Preview.Locomotion
+    className: IsFacingObject
+  - hash:
+      serializedVersion: 2
+      Hash: 2ee3eca4e38ba9aa5c7289d1362cb462
+    assemblyName: Assembly-CSharp
+    namespaceName: Leap.Examples
+    className: ProjectionPostProcessProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 0b63f6d3335e11939ce8790b904c8691
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: b31c2d7860306cafc5b599fa13dc5e52
+    assemblyName: Ultraleap.Tracking.PhysicalHands
+    namespaceName: Leap.PhysicalHands
+    className: SoftContactHand
+  - hash:
+      serializedVersion: 2
+      Hash: 148ccbdaccb9710aed0642ce4781435b
+    assemblyName: Ultraleap.Tracking.Locomotion
+    namespaceName: Leap.Preview.Locomotion
+    className: TeleportAnchor
+  - hash:
+      serializedVersion: 2
+      Hash: e402a382f213255c22bda9254dd831b3
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: SceneVariables
+  - hash:
+      serializedVersion: 2
+      Hash: e88d71ef93aba4e7faf243430f6a10ce
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: MacroScriptableObject
+  - hash:
+      serializedVersion: 2
+      Hash: 8dc40a01667ca02b3354a4e7a61be082
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 90cf308600fb4aeb677786843453ec55
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem
+    className: RemoteInputPlayerConnection
+  - hash:
+      serializedVersion: 2
+      Hash: f2098fcd8ee983a05ec192f63904298f
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnEndDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: b597d83c9f8970cb4e25f0b9916069df
+    assemblyName: Assembly-CSharp
+    namespaceName: Leap.Examples
+    className: SpawnObjectAtPosition
+  - hash:
+      serializedVersion: 2
+      Hash: db9b308769d19e1f9e161df0392c23ca
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTransformChildrenChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: a47182e2cc4ad3e76939204f5ef61278
+    assemblyName: UnityEngine.XR.LegacyInputHelpers
+    namespaceName: UnityEditor.XR.LegacyInputHelpers
+    className: CameraOffset
+  - hash:
+      serializedVersion: 2
+      Hash: 6d94138b60a9299798dda96c1ee6725f
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnBeginDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 51b80d3734ea86b38e3101db98029e15
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 0370b9f95798139b666659c7e1be6147
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.UI
+    className: BaseInputOverride
+  - hash:
+      serializedVersion: 2
+      Hash: 47ee34eb8b6021efa0289dbbb17a5a85
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: ec6cf673540b2d4e42c612611eeafe4d
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTriggerStayMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: eb3689ba55543e2ebdd1aed67d41538a
+    assemblyName: UnityEngine.XR.LegacyInputHelpers
+    namespaceName: UnityEngine.XR.LegacyInputHelpers
+    className: TransitionArmModel
+  - hash:
+      serializedVersion: 2
+      Hash: 10c17b309bdca62b4d7fbaf113ed4ca0
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 3c95b04524f22a941ae691368d785ee0
+    assemblyName: Assembly-CSharp
+    namespaceName: Leap.Examples
+    className: PullCord
+  - hash:
+      serializedVersion: 2
+      Hash: 7012a42e2249017c59a5559869ab2719
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: DetectorScript
+  - hash:
+      serializedVersion: 2
+      Hash: 522f6865b4ec12522e602206785309f8
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: GlobalMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 33f160a5c07e580c29aba2bd1e4db811
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 53e329840e6d03aebec76623c3b054db
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: d822993a2078e91b66d0e1295357faea
+    assemblyName: Unity.XR.OpenXR
+    namespaceName: UnityEngine.XR.OpenXR.Features.Interactions
+    className: HandCommonPosesInteraction
+  - hash:
+      serializedVersion: 2
+      Hash: 191cd500c627cd6682ef6f70b8e47f2c
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionEnter2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 0c0b64d103fe555d830e8ca206abd12a
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTriggerExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: f8f10d3215c7c6847fd1d57b59204bee
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap
+    className: UltraleapSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 17f82e3e7d8f8b07a270a4aad9bfe79d
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: d82086405f46de14829f6b4bcbdd8fc9
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnBecameInvisibleMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 5874b789cd9832847c61ebfa803213af
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UIElements
+    className: PanelEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 9dd54ce33440072d6692a67e0c384ad1
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: bf0842d88681628b29beb00b5e2ab785
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDeselectMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: b5007673bbbdb9d12597a1d8201370f5
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: 7ac6de8eb875d65c7cf03b0d328d83f1
+    assemblyName: Ultraleap.Tracking.PhysicalHands
+    namespaceName: Leap.PhysicalHands
+    className: NoContactParent
+  - hash:
+      serializedVersion: 2
+      Hash: 1f4a174779b659049048b54b74d1980b
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap
+    className: HandPoseViewer
+  - hash:
+      serializedVersion: 2
+      Hash: e2a7e188eca8218db78d6ddf1fb14398
+    assemblyName: Ultraleap.Tracking.UIInput
+    namespaceName: Leap.InputModule
+    className: SoundOverrides
+  - hash:
+      serializedVersion: 2
+      Hash: 69cdd0c57f23f2c1815a0c0fda8c37b5
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap
+    className: HandPoseDetector
+  - hash:
+      serializedVersion: 2
+      Hash: 2071f7ac454ae14eafecfd4041edae3a
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputActionEditorWindow
+  - hash:
+      serializedVersion: 2
+      Hash: ffb0563213cb85c3276560b50bd79b14
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap
+    className: LeapServiceProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 1ce63d97d1ca25cba2d91d5f32fd5f79
+    assemblyName: Unity.VisualScripting.State
+    namespaceName: Unity.VisualScripting
+    className: StateGraphAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 07e0a547f0e3fcea7b459288c3d558f8
+    assemblyName: Ultraleap.Tracking.HandRays
+    namespaceName: Leap.Preview.HandRays
+    className: FarFieldLayerManager
+  - hash:
+      serializedVersion: 2
+      Hash: 6cf63e9dc888f92a3672d2e4db631c8e
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: PlayerInputManagerEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 9c4f9e66a32ba3423f335bfac1a3f58e
+    assemblyName: Assembly-CSharp
+    namespaceName: Leap.Examples
+    className: KeyboardManager
+  - hash:
+      serializedVersion: 2
+      Hash: faaf7c5663a8ba2f1cd922fa30209736
+    assemblyName: Ultraleap.Tracking.UIInput
+    namespaceName: Leap.InputModule
+    className: CompressibleUI
+  - hash:
+      serializedVersion: 2
+      Hash: 411aeba4ec88e8cecdbcc94f62452b06
+    assemblyName: Ultraleap.Tracking.Aggregation
+    namespaceName: 
+    className: JointOcclusion
+  - hash:
+      serializedVersion: 2
+      Hash: b7d958c7bf940bb78b0ee419dd3aefe0
+    assemblyName: Ultraleap.Tracking.PhysicalHandsExamples
+    namespaceName: Leap.Examples
+    className: XRSceneHeadOrigin
+  - hash:
+      serializedVersion: 2
+      Hash: 4f81b12e1a60b251fa0500c327ae9162
+    assemblyName: Unity.XR.OpenXR.Features.ConformanceAutomation
+    namespaceName: UnityEngine.XR.OpenXR.Features.ConformanceAutomation
+    className: ConformanceAutomationFeature
+  - hash:
+      serializedVersion: 2
+      Hash: ef38c1407dba8c1f5d69f5db61a694fe
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: AnimatorMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 6dde723a599383ca240ebf2f685a0235
+    assemblyName: Ultraleap.Tracking.PhysicalHandsExamples
+    namespaceName: Leap.PhysicalHands.Examples
+    className: SceneReset
+  - hash:
+      serializedVersion: 2
+      Hash: 33656f83bb0079184b2206a69690ec46
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: c90767db78b7ead80617b2d0a283c791
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap.Readme
+    className: SceneReadmePing
+  - hash:
+      serializedVersion: 2
+      Hash: 7588006c8811d55a13ec27d323f81bec
+    assemblyName: Ultraleap.Tracking.HandRays
+    namespaceName: Leap.Preview.HandRays
+    className: ParabolicRayInteractor
+  - hash:
+      serializedVersion: 2
+      Hash: 9637dcdf3068a91dfe653e61bb82f13d
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 92edf63af71f234cc2ed040fbb026bcf
+    assemblyName: Unity.XR.OpenXR
+    namespaceName: UnityEngine.XR.OpenXR.Features.Interactions
+    className: HandInteractionProfile
+  - hash:
+      serializedVersion: 2
+      Hash: 103ad244d37625b40e59579cdd19c044
+    assemblyName: Assembly-CSharp
+    namespaceName: Leap.Examples
+    className: PullCordVisuals
+  - hash:
+      serializedVersion: 2
+      Hash: f80587da72ceed966d1c1f2096a626b7
+    assemblyName: Unity.XR.OpenXR
+    namespaceName: UnityEngine.XR.OpenXR.Features.Interactions
+    className: HTCViveControllerProfile
+  - hash:
+      serializedVersion: 2
+      Hash: 7a5cffeb6a4088cdf5cd3f6ecfec46ad
+    assemblyName: Unity.XR.OpenXR
+    namespaceName: UnityEngine.XR.OpenXR
+    className: OpenXRLoader
+  - hash:
+      serializedVersion: 2
+      Hash: da5a949a0bbd2ff91bc51c5805c2c41f
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseUpAsButtonMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 49a2510725c4699325c7cc6a8eca7f69
+    assemblyName: Unity.XR.CoreUtils
+    namespaceName: Unity.XR.CoreUtils.Datums
+    className: IntDatum
+  - hash:
+      serializedVersion: 2
+      Hash: b126b8fcd82d892cb1c55b489cc93dfe
+    assemblyName: Assembly-CSharp
+    namespaceName: Leap.Examples
+    className: LineBetweenTransforms
+  - hash:
+      serializedVersion: 2
+      Hash: 166b514f2d2a3298c465fac1b1629411
+    assemblyName: Assembly-CSharp
+    namespaceName: Leap.Examples
+    className: PinchStrokeProcessor
+  - hash:
+      serializedVersion: 2
+      Hash: 4f353524ce6564e40764f1ea080b2d85
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTriggerStay2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 5e48fd4594424ebac13e30cbd7cb8663
+    assemblyName: Assembly-CSharp
+    namespaceName: Leap.Examples
+    className: PoseRecorderExampleManager
+  - hash:
+      serializedVersion: 2
+      Hash: de3bec7ec70dff411f6bb08b42cdda21
+    assemblyName: Ultraleap.Tracking.Aggregation
+    namespaceName: 
+    className: VisualizeJointConfidence
+  - hash:
+      serializedVersion: 2
+      Hash: 9104447b683bf70406fa01f12ecb564a
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: a90f6a00b23520788be7d89ee3b0773d
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 13f262cc0741566a7ab72682984bc3e1
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: febcfbf0a0d85e37808a3740e3c2c6fa
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: e39e2c8e72854d39371ad04f5be6f955
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap
+    className: SimpleAnchorFeedback
+  - hash:
+      serializedVersion: 2
+      Hash: 672716ae97f6ddb615fa5ac3ec9da349
+    assemblyName: UnityEngine.TestRunner
+    namespaceName: UnityEngine.TestTools
+    className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: 076dd3db18f8b68bc849e816c972af53
+    assemblyName: Ultraleap.Tracking.Aggregation
+    namespaceName: Leap
+    className: AggregationProviderAngularInterpolation
+  - hash:
+      serializedVersion: 2
+      Hash: bc75926bfd3609757f7bf33ff766f026
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.EnhancedTouch
+    className: TouchSimulation
+  - hash:
+      serializedVersion: 2
+      Hash: 8ed5daadd237bb82e132790f75ffccaf
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: PlayerInputEditor
+  - hash:
+      serializedVersion: 2
+      Hash: a92561298b80715aa69e8fa770123cb5
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.UI.Editor
+    className: InputSystemUIInputModuleEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 8bbce9932f67ad8e7f4eefec87800f94
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: fa91378f31c54029c3a0d70583208e48
+    assemblyName: Unity.XR.OpenXR
+    namespaceName: UnityEngine.XR.OpenXR
+    className: OpenXRLoaderNoPreInit
+  - hash:
+      serializedVersion: 2
+      Hash: 3074afe1b03a0fb081e176a4ef1b9d09
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputActionAssetEditor
+  - hash:
+      serializedVersion: 2
+      Hash: a064c8fd589ce85943085fb54d3d597b
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap
+    className: CapsuleHand
+  - hash:
+      serializedVersion: 2
+      Hash: e63fe08659e7e4647a51098c666f8845
+    assemblyName: Unity.InputSystem
+    namespaceName: 
+    className: DownloadableSample
+  - hash:
+      serializedVersion: 2
+      Hash: ef1bed0068849933a63ffedbec2f56d0
+    assemblyName: Ultraleap.Tracking.Controllers
+    namespaceName: Leap.Controllers
+    className: ControllerPostProcess
+  - hash:
+      serializedVersion: 2
+      Hash: 49d33869171bde084cb88eab67cc19ed
+    assemblyName: Ultraleap.Tracking.HandRays
+    namespaceName: Leap.Preview.HandRays
+    className: PalmWristShoulderHandRay
+  - hash:
+      serializedVersion: 2
+      Hash: f669be52680c88846b2093fd41d1e06e
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 20a120e55ad3ab65556328d5fd8309dd
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: 73077df76e8f3617af147ee287d0fe8e
+    assemblyName: Ultraleap.Tracking.PhysicalHands
+    namespaceName: Leap.PhysicalHands
+    className: PhysicalHandsButtonHelper
+  - hash:
+      serializedVersion: 2
+      Hash: 65031782bba76be674fce2781ddb3f09
+    assemblyName: Assembly-CSharp
+    namespaceName: Leap.Examples
+    className: PoseDetectorUIText
+  - hash:
+      serializedVersion: 2
+      Hash: 258aee3b0541bcdc50db220a6ff07839
+    assemblyName: Ultraleap.Tracking.PhysicalHands
+    namespaceName: Leap.PhysicalHands
+    className: GrabBall
+  - hash:
+      serializedVersion: 2
+      Hash: 33eb495d99aa9bea4dbe8b4c4e02c7bb
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem
+    className: InputActionReference
+  - hash:
+      serializedVersion: 2
+      Hash: 17142b03663387290480c82303274c02
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: f2305da2400dfe6f069770a1a63f0f7c
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 4878e735441f4041539853759559c86f
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: c4b85a67513b4f0cf7b5fb2d5ded04b0
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: d12b219dbec553062bcbea9e5cbbfbd4
+    assemblyName: Unity.XR.OpenXR
+    namespaceName: UnityEngine.XR.OpenXR.Features.Interactions
+    className: DPadInteraction
+  - hash:
+      serializedVersion: 2
+      Hash: d2ecd94550edf1b56aff07b1f4e41c57
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTriggerEnter2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 2ebe242529c72ae582e36b8c833dd5b2
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap.Examples
+    className: IgnoreCollisionsInChildren
+  - hash:
+      serializedVersion: 2
+      Hash: 7bb32d6e4c7614a97d9723ce7e26588c
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: BasicPlayableBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: d33fbcfad4a49ca0b4894221a7a307e8
+    assemblyName: Unity.XR.OpenXR.Features.MetaQuestSupport
+    namespaceName: UnityEngine.XR.OpenXR.Features.MetaQuestSupport
+    className: MetaQuestFeature
+  - hash:
+      serializedVersion: 2
+      Hash: e8d390bd9ecacc453a7500b90d0c0292
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 19824dd35debb3fff0983df49f8359ab
+    assemblyName: UnityEngine.TestRunner
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: f72989594765e7b5fdff1b6e78dad6b1
+    assemblyName: Ultraleap.Tracking.PhysicalHandsExamples
+    namespaceName: Leap.PhysicalHands.Examples
+    className: PhysicalHandsHandMenu
+  - hash:
+      serializedVersion: 2
+      Hash: afb7b65d28d5a7423e69a1b076be0064
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: 0cb425f0b58fcd4574fca4589722c676
+    assemblyName: Ultraleap.Tracking.HandRays
+    namespaceName: Leap.Preview.HandRays
+    className: HandRayRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: 866f2b9f5f74de07e0d67fea4471a2fd
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap.Attachments
+    className: AttachmentHandEnableDisable
+  - hash:
+      serializedVersion: 2
+      Hash: 8c82791ed2ea48a8bf47ddf24f3c1fe3
+    assemblyName: Ultraleap.Tracking.Hands
+    namespaceName: Leap.HandsModule
+    className: ShowArm
+  - hash:
+      serializedVersion: 2
+      Hash: 6a0b5b415c00f783202fd1ae2d556cb2
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: b14e186823458f549289789cccbb77ce
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerDownMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: ee34255e3e86289bde9bad5e07b84cbc
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnScrollRectValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: d3ab64899d9c0d96b3d8d8d050d7ee54
+    assemblyName: Ultraleap.Tracking.HandRays
+    namespaceName: Leap.Preview.HandRays
+    className: InferredBodyPositions
+  - hash:
+      serializedVersion: 2
+      Hash: 830c3b545f6e6ee60a4cebab90516f2c
+    assemblyName: UnityEngine.TestRunner
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: d0cdd713f9bf4e6a625d9e7804deca42
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: c979f7be1210f86d4b30ceddb3c91384
+    assemblyName: Ultraleap.Tracking.PhysicalHands
+    namespaceName: Leap.PhysicalHands
+    className: PhysicalHandsButtonToggle
+  - hash:
+      serializedVersion: 2
+      Hash: 4895209f48657ff949db7815a6062743
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem
+    className: InputSettings
+  - hash:
+      serializedVersion: 2
+      Hash: b9857a9a9fb677d34bf51aadc69546e6
+    assemblyName: Assembly-CSharp
+    namespaceName: Leap.Examples
+    className: SimpleGrabBallFeedback
+  - hash:
+      serializedVersion: 2
+      Hash: a89b0448af4e1cd103a77f9fec0a961f
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnSubmitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 5ebc58ec194dd44630b25fcc270ad4af
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 4a95b8786f5a2d9383d89f8e083998ca
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap
+    className: AnchorableBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 4aa75eebe5b8b3bd362b4adcad58df8f
+    assemblyName: Unity.XR.OpenXR.Features.MockRuntime
+    namespaceName: UnityEngine.XR.OpenXR.Features.Mock
+    className: MockRuntime
+  - hash:
+      serializedVersion: 2
+      Hash: beca881b1e805cf62c00ec61a284f2cc
+    assemblyName: Assembly-CSharp
+    namespaceName: Leap.Examples
+    className: SimpleTransformUtil
+  - hash:
+      serializedVersion: 2
+      Hash: 71d0251e1b113fcb8ccc731047912af2
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap
+    className: SimpleFacingCameraCallbacks
+  - hash:
+      serializedVersion: 2
+      Hash: 9dcb7a1aef62578582c3bde5b42ed984
+    assemblyName: Ultraleap.Tracking.UIInput
+    namespaceName: Leap.InputModule
+    className: PhysicsUI
+  - hash:
+      serializedVersion: 2
+      Hash: 68088888e737d8ebdd3c840d9c738dcc
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap
+    className: HandPoseRecorder
+  - hash:
+      serializedVersion: 2
+      Hash: 4728e3d21cc2a12e391e71ec9b7eed0b
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 067ac480a2b32fcdd846d1d357e42b8f
+    assemblyName: Ultraleap.Tracking.PhysicalHands
+    namespaceName: Leap.PhysicalHands
+    className: PhysicalHandsSliderHelper
+  - hash:
+      serializedVersion: 2
+      Hash: 6128ac331fdf109cdf8a3c433bb209b7
+    assemblyName: Ultraleap.Tracking.PhysicalHandsExamples
+    namespaceName: Leap.Examples
+    className: Magnet
+  - hash:
+      serializedVersion: 2
+      Hash: e0a91173084bd8b8cce7e6e00e343381
+    assemblyName: Unity.XR.OpenXR
+    namespaceName: UnityEngine.XR.OpenXR.Features.Interactions
+    className: OculusTouchControllerProfile
+  - hash:
+      serializedVersion: 2
+      Hash: 67272c9c30c50b68ef1ce72ac0191c57
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMoveMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 4e3c4ed66ca536796a30acb96e6526d6
+    assemblyName: Unity.XR.CoreUtils
+    namespaceName: Unity.XR.CoreUtils.Datums
+    className: AnimationCurveDatum
+  - hash:
+      serializedVersion: 2
+      Hash: 60add405c0582e2531e620e6d988201e
+    assemblyName: Ultraleap.Tracking.PhysicalHands
+    namespaceName: Leap
+    className: PhysicalHandsAnchorable
+  - hash:
+      serializedVersion: 2
+      Hash: d0392b7f3f52d5af537ade186b4f51f1
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: bac0b35daaee0e26b853580b97306d68
+    assemblyName: Ultraleap.Tracking.Hands
+    namespaceName: Leap.HandsModule
+    className: HandModelManager
+  - hash:
+      serializedVersion: 2
+      Hash: dbe80c9dc024d18e75107a0b4da06133
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.UI
+    className: InputSystemUIInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 4b67a7e18df52d238ecc448e9c40d203
+    assemblyName: Assembly-CSharp
+    namespaceName: Leap.Examples
+    className: Turntable
+  - hash:
+      serializedVersion: 2
+      Hash: 4bd6cd7bacfd1edb5bec54b5cc8b97fb
+    assemblyName: Ultraleap.Tracking.PhysicalHands
+    namespaceName: Leap.PhysicalHands
+    className: PhysicalHandEvents
+  - hash:
+      serializedVersion: 2
+      Hash: d5cd7f207e91ca8336c65a577a6fb2a0
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: 89d442605069ee8315c68ee16f9b2314
+    assemblyName: Ultraleap.Tracking.Locomotion
+    namespaceName: Leap.Preview.Locomotion
+    className: PinchToTeleport
+  - hash:
+      serializedVersion: 2
+      Hash: a9cfe8b70148bbeb810f6abb6a697f2d
+    assemblyName: Ultraleap.Tracking.HandRays
+    namespaceName: Leap.Preview.HandRays
+    className: EyePinchHandRay
+  - hash:
+      serializedVersion: 2
+      Hash: ab71e93958afdfc45a4911be9d1cef55
+    assemblyName: Ultraleap.Tracking.PhysicalHands
+    namespaceName: Leap.PhysicalHands
+    className: SoftContactParent
+  - hash:
+      serializedVersion: 2
+      Hash: 83447eb14ba5f9222c0f703aabb89c38
+    assemblyName: UnityEngine.XR.LegacyInputHelpers
+    namespaceName: UnityEngine.XR.LegacyInputHelpers
+    className: SwingArmModel
+  - hash:
+      serializedVersion: 2
+      Hash: f42eeda902f33d15df4c74d6b42862a4
+    assemblyName: Ultraleap.Tracking.UIInput
+    namespaceName: Leap.InputModule
+    className: UIInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 9a174471d4db2c0c6d3ac47d2f818db1
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnParticleCollisionMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 40be2ad159aa1a2b72ecc74cb38c7824
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.UI
+    className: MultiplayerEventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 2bbd05175d4cdd21e24f9716cdd24f83
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.XR
+    className: TrackedPoseDriver
+  - hash:
+      serializedVersion: 2
+      Hash: 10e15e2f03fc78966ddda19baa968c3a
+    assemblyName: Ultraleap.Tracking.HandRays
+    namespaceName: Leap.Preview.HandRays
+    className: TransformWristShoulderHandRay
+  - hash:
+      serializedVersion: 2
+      Hash: 0f5a086d4d028363983ba6ca30a01397
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseOverMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 2c583ad0ac85d03e8700dd05fdcb46cb
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: Variables
+  - hash:
+      serializedVersion: 2
+      Hash: 55d5be533db80f7a21d5e8b125356e52
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap
+    className: GrabDetector
+  - hash:
+      serializedVersion: 2
+      Hash: b28da36357a611bdf529e57fd65fdcda
+    assemblyName: Assembly-CSharp
+    namespaceName: Leap.Examples
+    className: KeyboardKey
+  - hash:
+      serializedVersion: 2
+      Hash: b30c8635462e66ac20f4241106119f77
+    assemblyName: Unity.VisualScripting.State
+    namespaceName: Unity.VisualScripting
+    className: StateMachine
+  - hash:
+      serializedVersion: 2
+      Hash: 2b721537157087748296c7481f8b1348
+    assemblyName: Assembly-CSharp
+    namespaceName: Leap.Examples
+    className: WorkstationBehaviourExample
+  - hash:
+      serializedVersion: 2
+      Hash: 62e9fc592fc9bc15cfc5af32815e77fc
+    assemblyName: Unity.XR.OpenXR
+    namespaceName: UnityEngine.XR.OpenXR.Features.Interactions
+    className: EyeGazeInteraction
+  - hash:
+      serializedVersion: 2
+      Hash: c76766bea6f8d46207a6addca0726491
+    assemblyName: Ultraleap.Tracking.UIInput
+    namespaceName: Leap.InputModule
+    className: PointerElement
+  - hash:
+      serializedVersion: 2
+      Hash: 568292fb7ea6c4f7a667e5ff76bc7e85
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseUpMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 1553f209ae0b2d5d3a35685fca55f9c3
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: d86783a454125dfc0156dcce370acad8
+    assemblyName: Assembly-CSharp
+    namespaceName: Leap.Examples
+    className: SimpleRendererUtil
+  - hash:
+      serializedVersion: 2
+      Hash: eef30bef0b81ef241b84efc20c5c85cb
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap.RuntimeGizmos
+    className: RuntimeGizmoManager
+  - hash:
+      serializedVersion: 2
+      Hash: 74de9ee03f988c4c25989be24f4ff5bc
+    assemblyName: Unity.XR.OpenXR
+    namespaceName: UnityEngine.XR.OpenXR.Features.Interactions
+    className: ValveIndexControllerProfile
+  - hash:
+      serializedVersion: 2
+      Hash: 0763e9b439042fa7ebcfe5eb2850a1a5
+    assemblyName: Unity.XR.CoreUtils
+    namespaceName: Unity.XR.CoreUtils.Datums
+    className: FloatDatum
+  - hash:
+      serializedVersion: 2
+      Hash: 84118d0394242d83871b19861f5523b2
+    assemblyName: Assembly-CSharp
+    namespaceName: Leap.Examples
+    className: PaintCursor
+  - hash:
+      serializedVersion: 2
+      Hash: b858289e8fff3e9286f0edf04e2dde04
+    assemblyName: Ultraleap.Tracking.Core
+    namespaceName: Leap
+    className: HandPoseScriptableObject
+  - hash:
+      serializedVersion: 2
+      Hash: 060552f194082617403d8e97c7540651
+    assemblyName: Unity.XR.OpenXR.Features.OculusQuestSupport
+    namespaceName: UnityEngine.XR.OpenXR.Features.OculusQuestSupport
+    className: OculusQuestFeature
+  - hash:
+      serializedVersion: 2
+      Hash: ff76cf6cf52b4db7b95af6ffadca9288
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: c4cdb902228df56d5b2b639d6a6bbd3c
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem
+    className: PlayerInputManager
+  - hash:
+      serializedVersion: 2
+      Hash: 02a47340661d2ea7c6d30e292cfef403
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnToggleValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 8bf800a764665b085fe469e8aea7f167
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 4fcf0bb4aff1d14a1dfcdedc4b07bd05
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: cfd48423dfa9a0e0c2b0cd8c074e7f06
+    assemblyName: Assembly-CSharp
+    namespaceName: Leap.Examples
+    className: ExplodingItem
+  - hash:
+      serializedVersion: 2
+      Hash: 1cc0c37d59c0e7131ddfdd392d08d107
+    assemblyName: Assembly-CSharp
+    namespaceName: Leap.Examples
+    className: MovePoseExample
+  - hash:
+      serializedVersion: 2
+      Hash: 00eef92bf387da2c9009267123d9d674
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTriggerExit2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 8b15e35eb98fc258ec2e839df7c3c9b0
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 94fe1341a5d3525e28df9f6c845ce5a5
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SceneSwitcher
+  platform: 19
+  scenePathNames:
+  - Assets/Practicing/Menu.unity
+  - Assets/Practicing/NegativeStage.unity
+  - Assets/Practicing/NormalStage.unity
+  - Assets/Practicing/PositiveStage.unity
+  playerPath: D:/GameDev/HandTracking/XR-HandTracking.exe
